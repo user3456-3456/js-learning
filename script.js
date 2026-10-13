@@ -38,5 +38,4 @@ console.log(coins);
 
 //practical 3
 const pi = 3.14;
-let pi = 3.15;
 console.log(pi);
