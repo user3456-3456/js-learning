@@ -14,3 +14,24 @@ console.log(score);
 score = score + 5;
 console.log(score);
 
+const birthYear = 2005;
+console.log(birthYear);
+
+
+console.log("5" + 3);   // text + number
+console.log(5 + 3);     // number + number
+
+//practical 1
+let firstName = "KANGETHE";
+let lastName = "MURAGE";
+let fullName = firstName + " " + lastName;
+console.log(fullName);
+let age1 = 20;
+console.log("My name is " + fullName + " and I am " + age1 + " years old.");
+
+//practical 2
+let coins = 100;
+coins = coins + 50;
+coins = coins - 30;
+coins = coins * 2;
+console.log(coins);
