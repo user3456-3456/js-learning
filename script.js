@@ -35,3 +35,8 @@ coins = coins + 50;
 coins = coins - 30;
 coins = coins * 2;
 console.log(coins);
+
+//practical 3
+const pi = 3.14;
+let pi = 3.15;
+console.log(pi);
