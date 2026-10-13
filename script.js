@@ -45,3 +45,9 @@ const pricePerBook = 12;
 const numberOfBooks = 4;
 const totalPrice = pricePerBook * numberOfBooks;
 console.log("The total price of " + numberOfBooks + " books is $" + totalPrice);
+
+//practical 5
+let a = 10;
+let b = 20;
+a = b;
+console.log(a, b);
