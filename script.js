@@ -39,3 +39,9 @@ console.log(coins);
 //practical 3
 const pi = 3.14;
 console.log(pi);
+
+//practical 4
+const pricePerBook = 12;
+const numberOfBooks = 4;
+const totalPrice = pricePerBook * numberOfBooks;
+console.log("The total price of " + numberOfBooks + " books is $" + totalPrice);
