@@ -1,10 +1,21 @@
-let number = 6;
+const light = "yellow"
 
-if (number % 2 === 0) {
-  console.log("even");
-} else {
-  console.log("odd");
+if (light === "green") {
+    console.log("Go!");
+} else if  (light === "yellow") {
+    console.log("Get ready!");
+} else if (light === "red") {
+    console.log("Stop!");
 }
+
+
+// let number = 6;
+
+// if (number % 2 === 0) {
+//   console.log("even");
+// } else {
+//   console.log("odd");
+// }
 
 //Practical 1: Voting check. Make const age = 17. Print "You can vote" if age is 18 or more, otherwise "Too young to vote". Test with several ages.
 
