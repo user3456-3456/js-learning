@@ -1,12 +1,20 @@
-const light = "yellow"
+const correctPassword = "js123";
+const enteredPassword = "js123";
 
-if (light === "green") {
-    console.log("Go!");
-} else if  (light === "yellow") {
-    console.log("Get ready!");
-} else if (light === "red") {
-    console.log("Stop!");
+const isPasswordCorrect = enteredPassword === correctPassword;
+
+if (isPasswordCorrect) {console.log("Access granted");
 }
+
+// const light = "yellow"
+
+// if (light === "green") {
+//     console.log("Go!");
+// } else if  (light === "yellow") {
+//     console.log("Get ready!");
+// } else if (light === "red") {
+//     console.log("Stop!");
+// }
 
 
 // let number = 6;
