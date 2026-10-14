@@ -1,10 +1,28 @@
-const day = "Saturday";
+let number = 6;
 
-if (day === "Saturday" || day === "Sunday") {
-  console.log("It's the weekend! 🎉");
+if (number % 2 === 0) {
+  console.log("even");
 } else {
-  console.log("It's a weekday.");
+  console.log("odd");
 }
+
+//Practical 1: Voting check. Make const age = 17. Print "You can vote" if age is 18 or more, otherwise "Too young to vote". Test with several ages.
+
+// const age = 17;
+
+// if (age >= 18) {
+//   console.log("You can vote");
+// } else {
+//   console.log("Too young to vote");
+// }   
+
+// const day = "Saturday";
+
+// if (day === "Saturday" || day === "Sunday") {
+//   console.log("It's the weekend! 🎉");
+// } else {
+//   console.log("It's a weekday.");
+// }
 
 // const age = 10;
 // const hasTicket = true;
