@@ -1,11 +1,19 @@
-const age = 10;
-const hasTicket = true;
+const day = "Saturday";
 
-if (age >= 18 && hasTicket) {
-  console.log("Welcome to the concert!");
+if (day === "Saturday" || day === "Sunday") {
+  console.log("It's the weekend! 🎉");
 } else {
-  console.log("Sorry, you can't enter.");
+  console.log("It's a weekday.");
 }
+
+// const age = 10;
+// const hasTicket = true;
+
+// if (age >= 18 && hasTicket) {
+//   console.log("Welcome to the concert!");
+// } else {
+//   console.log("Sorry, you can't enter.");
+// }
 
 // const score = 5;
 
