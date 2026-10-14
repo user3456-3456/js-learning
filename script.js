@@ -1,9 +1,11 @@
 const correctPassword = "js123";
-const enteredPassword = "js123";
+const enteredPassword = "js23";
 
 const isPasswordCorrect = enteredPassword === correctPassword;
 
 if (isPasswordCorrect) {console.log("Access granted");
+}
+else {console.log("Access denied");
 }
 
 // const light = "yellow"
