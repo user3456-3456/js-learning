@@ -1,14 +1,23 @@
-const score = 5;
+const age = 10;
+const hasTicket = true;
 
-if (score >= 90) {
-  console.log("Grade A");
-} else if (score >= 70) {
-  console.log("Grade B");
-} else if (score >= 50) {
-  console.log("Grade C");
+if (age >= 18 && hasTicket) {
+  console.log("Welcome to the concert!");
 } else {
-  console.log("Try again!");
+  console.log("Sorry, you can't enter.");
 }
+
+// const score = 5;
+
+// if (score >= 90) {
+//   console.log("Grade A");
+// } else if (score >= 70) {
+//   console.log("Grade B");
+// } else if (score >= 50) {
+//   console.log("Grade C");
+// } else {
+//   console.log("Try again!");
+// }
 
 // const temperature = 25;
 
