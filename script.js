@@ -1,4 +1,4 @@
-const score = 75;
+const score = 5;
 
 if (score >= 90) {
   console.log("Grade A");
