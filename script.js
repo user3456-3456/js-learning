@@ -1,3 +1,18 @@
+
+
+
+// const age = 20;
+
+// if (age >= 18) {
+//   console.log("You are an adult.");
+// }
+
+
+// console.log(5 > 3);
+// console.log(10 === 10);
+// console.log("cat" === "dog");
+// console.log(7 !== 7);
+
 // let name = "kangethe";
 // let age = 20;
 
