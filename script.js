@@ -1,4 +1,20 @@
-const age = 20;
+const age = 127;
+let movieTicketPrice;
+
+if (age < 5) {
+    movieTicketPrice = "Free";
+} else if (age >= 5 && age <= 17) {
+    movieTicketPrice = "$5";
+} else if (age >= 18 && age <= 59) {
+    movieTicketPrice = "$10";
+} else {
+    movieTicketPrice = "$6";
+}
+
+console.log(movieTicketPrice);
+
+
+
 
 // const correctPassword = "js123";
 // const enteredPassword = "js23";
