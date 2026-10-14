@@ -1,10 +1,22 @@
-const temperature = 25;
+const score = 75;
 
-if (temperature > 25) {
-  console.log("It's hot! Wear light clothes.");
+if (score >= 90) {
+  console.log("Grade A");
+} else if (score >= 70) {
+  console.log("Grade B");
+} else if (score >= 50) {
+  console.log("Grade C");
 } else {
-  console.log("It's cool. Bring a jacket.");
+  console.log("Try again!");
 }
+
+// const temperature = 25;
+
+// if (temperature > 25) {
+//   console.log("It's hot! Wear light clothes.");
+// } else {
+//   console.log("It's cool. Bring a jacket.");
+// }
 
 
 // const age = 20;
