@@ -45,7 +45,7 @@
 //   console.log("odd");
 // }
 
-//Practical 1: Voting check. Make const age = 17. Print "You can vote" if age is 18 or more, otherwise "Too young to vote". Test with several ages.
+// //Practical 1: Voting check. Make const age = 17. Print "You can vote" if age is 18 or more, otherwise "Too young to vote". Test with several ages.
 
 // const age = 17;
 
@@ -153,8 +153,8 @@
 // const totalPrice = pricePerBook * numberOfBooks;
 // console.log("The total price of " + numberOfBooks + " books is $" + totalPrice);
 
-//practical 5
-let a = 10;
-let b = 20;
-a = b;
-console.log(a + b);
+// //practical 5
+// let a = 10;
+// let b = 20;
+// a = b;
+// console.log(a + b);
