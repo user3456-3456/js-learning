@@ -1,4 +1,10 @@
+const temperature = 25;
 
+if (temperature > 25) {
+  console.log("It's hot! Wear light clothes.");
+} else {
+  console.log("It's cool. Bring a jacket.");
+}
 
 
 // const age = 20;
