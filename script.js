@@ -160,6 +160,17 @@
 // console.log(a + b);
 
 
+let age = 15;
 
 
+function checkAge() {
+    if (age >= 18) {
+        console.log("Enjoy the movie.");
+    } else if (age >= 13 && age < 18) {
+        console.log("You can watch the movie with parental guidance.");
+    } else {
+        console.log("Sorry, you are too young to watch this movie.");
+    }
+}
 
+console.log(checkAge());
